@@ -1,0 +1,37 @@
+digraph scanFlow {
+  graph [compound = true];
+  node [shape=box]
+
+
+  subgraph cluster_summary{
+    color=red
+    label="SUMMARY";
+    summaryDiscover [label=discover];
+    summaryScan [label=scan];
+    summaryOutput [label=output];
+    summaryDiscover -> summaryScan -> summaryOutput;
+
+  }
+  subgraph cluster_discover{
+    label="discover";
+    discover [label="Found objects(nmap?)"];
+  }
+  
+  subgraph cluster_scan{
+    label="scan: scan and identify";
+    vendor [label="identify vendor"]
+    firmware [label="identify firmware version"];
+    vendor -> firmware;
+  }
+  subgraph cluster_output{
+    label="output";
+    estimate [label="estimate CPE from firmware version"];
+    output [label="Return results in multiple formats(CVS, JSON, etc)"];
+    estimate -> output;
+  }
+
+  discover -> vendor [ltail="cluster_discover", lhead="cluster_scan"];
+  firmware -> estimate [ltail="cluster_scan", lhead="cluster_output"];
+  
+
+}
