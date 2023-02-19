@@ -1,5 +1,15 @@
 # CISCO
 
+## Manufacture
+
+.1.3.6.1.2.1.47.1.1.1.1.12.1(entPhysicalMfgName)
+
+```
+--noSampleData--
+may be..
+> entPhysicalMfgName.1 = Cisco Systems Inc
+```
+
 ## Firmware 
 
 ### snmp
@@ -11,13 +21,13 @@ Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.4(3)M3, REL
 ...
 ```
 
-.1.3.6.1.2.1.47.1.1.1.1.10.1
+.1.3.6.1.2.1.47.1.1.1.1.10.1 (entPhysicalSoftwareRev.1)
 
 ```
 15.4(3)M3, RELEASE SOFTWARE (fc2)
 ```
 
-.1.3.6.1.2.1.47.1.1.1.1.10.3
+.1.3.6.1.2.1.47.1.1.1.1.10.3 (entPhysicalSoftwareRev.3)
 
 ```
 15.4(3)M3
@@ -41,9 +51,23 @@ ROM: System Bootstrap, Version 15.0(1r)M16, RELEASE SOFTWARE (fc1)
 
 I don't have data to confirm.
 
-- plz Give me the snmpwalk result to Cisco. (`snmpwalk -v2c -c <communityName> <targetIP> .1`)
-  - There is no problem even if you delete(mask) the serial number, host name, etc.
-  - probably: .1.3.6.1.2.1.47.1.1.1.1.7.1 (walk to 1.3.6.1.2.1.47.1.1.1.1 )
+1.3.6.1.2.1.47.1.1.1.1.7.1(entPysicalName.1)
+
+```
+--noSampleData--
+may be..
+> entPhysicalName.1 = 7300 Chassis
+(looks like `cpe:2.3:h:cisco:7300_router:-:*:*:*:*:*:*:*` ?)
+```
+
+1.3.6.1.2.1.47.1.1.1.1.2.1(entPysicalDescr.1)
+
+```
+--noSampleData--
+may be..
+> entPhysicalDescr.1 = 7300 Chassis
+(looks like `cpe:2.3:h:cisco:7300_router:-:*:*:*:*:*:*:*` ?)
+```
 
 ### command
 
@@ -65,6 +89,14 @@ Device#   PID                   SN
 
 
 # Fortigate
+
+## Manufacture
+
+.1.3.6.1.2.1.47.1.1.1.1.12.1(entPhysicalMfgName)
+
+```
+Fortinet
+```
 
 ## Firmware
 
@@ -139,3 +171,4 @@ Version: FortiGate-70D v5.6.9,build1673,190513 (GA)
 
 - https://satimo.org/2020/06/fortigate-mib/
 - https://oidref.com/
+- https://www.cisco.com/c/ja_jp/td/docs/rt/wanaggregationinternetedgert/7300rt/mib/001/cm217/a-7300appa.html
