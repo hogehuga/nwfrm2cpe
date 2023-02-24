@@ -58,3 +58,5 @@ I'm wondering if I should check this OID.
 1. ./getMibDataList.sh command execution result. or snmpwalk(entPhysicalMfgName,entPhysicalSoftwareRev,entphysicalName) results.
 2. (If possible) result of snmpwalk on OID as ".1". (Please mask confidential information.)
 3. please send the above by ... Issue or [googleForms](https://docs.google.com/forms/d/e/1FAIpQLSdGFJAxH7JV3c6kBP94jo1rvZAi1HM-E11wDyx1kZKWJIf1wA/viewform?usp=sf_link).
+
+Usage: `./getMibDataList.sh -c <CommunityName> -i <TargetIPAddress>"`
