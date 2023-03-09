@@ -83,6 +83,9 @@ Fortinet
 ```
 v6.4.6,build1879,210520 (GA)
 ```
+```
+v6.4.11,build2030,221031 (GA.M)
+```
 
 1.3.6.1.4.1.12356.101.4.1.1 (fgSysVersion)
 ```
@@ -92,6 +95,9 @@ v5.2.5,build0701,151203 (GA)
 .1.3.6.1.2.1.47.1.1.1.1.10.1
 ```
 FortiGate-60D v5.2.5,build0701b701,151203 (GA)
+```
+```
+FortiGate-60F v6.4.11,build2030,221031 (GA.M)
 ```
 
 ### command
@@ -105,22 +111,34 @@ Version: FortiGate-70D v5.6.9,build1673,190513 (GA)
 ### snmp
 .1.3.6.1.2.1.47.1.1.1.1.2.1 (entPhysicalDescr)
 ```
-Fortinet FGT_60D, HW Serial#: FGT60D--masked--"$
+Fortinet FGT_60D, HW Serial#: FGT60D<--masked-->
+```
+```
+Fortinet FGT_60F, HW Serial#: FGT60F<--masked-->
 ```
 
 .1.3.6.1.2.1.47.1.1.1.1.7.1 (entPhysicalName)
 ```
 FGT_60D
 ```
+```
+FGT_60F
+```
 
 .1.3.6.1.2.1.47.1.1.1.1.10.1 (entPhysicalSoftwareRev)
 ```
 FortiGate-60D v5.2.5,build0701b701,151203 (GA)
 ```
+```
+FortiGate-60F v6.4.11,build2030,221031 (GA.M)
+```
 
 .1.3.6.1.2.1.47.1.1.1.1.13.1 (entPhysicalModelName)
 ```
 FGT_60D
+```
+```
+FGT_60F
 ```
 
 ### command
@@ -229,7 +247,7 @@ NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (mage
 
 1.3.6.1.4.1.1182.2.6.6.0 (SNMPv2-SMI::enterprises.1182.2.6.6.0)(iso.org.dod.internet.private.enterprises.yamaha.yamaha.yamahaRT.(notdefined?).(notdefined?).0)
 ```
-"15.02.20"
+15.02.20
 ```
 
 ### command
@@ -252,7 +270,7 @@ NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (mage
 
 1.3.6.1.4.1.1182.2.6.5.0 (SNMPv2-SMI::enterprises.1182.2.6.5.0)(iso.org.dod.internet.private.enterprises.yamaha.yamaha.yamahaRT.(notdefined?).(notdefined?).0)
 ```
-"RTX830"
+RTX830
 ```
 
 ### command
