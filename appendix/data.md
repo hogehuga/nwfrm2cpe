@@ -179,6 +179,91 @@ I've NO DATA.
 Plase give me data!
 ```
 
+# IX(NEC)
+## Manufacture
+### snmp
+Only available from sysDescr.0
+
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (magellan-sec) Software, Version 10.6.21, RELEASE SOFTWARE, Compiled Dec 15-Fri-YYYY HH:MM:SS JST #2, IX2235
+```
+
+## Firmware
+### snmp
+Only available from sysDescr.0
+
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (magellan-sec) Software, Version 10.6.21, RELEASE SOFTWARE, Compiled Dec 15-Fri-YYYY HH:MM:SS JST #2, IX2235
+```
+
+## Hardware
+### snmp
+Only available from sysDescr.0
+
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (magellan-sec) Software, Version 10.6.21, RELEASE SOFTWARE, Compiled Dec 15-Fri-YYYY HH:MM:SS JST #2, IX2235
+```
+
+# RTX(YAMAHA)
+## Manufacture
+### snmp
+
+None.
+
+- Can be estimated from sysDescr.0 and model name?(sysDescr.0 etc)
+
+## Firmware 
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (magellan-sec) Software, Version 10.6.21, RELEASE SOFTWARE, Compiled Dec 15-Fri-YYYY HH:MM:SS JST #2, IX2235
+```
+
+1.3.6.1.4.1.1182.2.2.3.0 (SNMPv2-SMI::enterprises.1182.2.2.3.0)(iso.org.dod.internet.private.enterprises.yamaha.yamahaRT.yamahaRTFirmware.yrfRevision.0)
+```
+"RTX830 Rev.15.02.20 (Fri Apr 16 09:37:54 2021)"
+```
+
+1.3.6.1.4.1.1182.2.6.6.0 (SNMPv2-SMI::enterprises.1182.2.6.6.0)(iso.org.dod.internet.private.enterprises.yamaha.yamaha.yamahaRT.(notdefined?).(notdefined?).0)
+```
+"15.02.20"
+```
+
+### command
+
+show environment
+```
+RTX810 BootROM Ver. 1.00
+RTX810 FlashROM Table Ver. 1.01
+RTX810 Rev.11.01.21 (Mon Jun 30 15:21:35 2014)
+  main:  RTX810 ver=00 serial=xxxxxxxxx MAC-Address=NN:NN:NN:NN:NN:NN MAC-Address=NN:NN:NN:NN:NN:NN
+...
+```
+
+## Hardware
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+NEC Portable Internetwork Core Operating System Software, IX Series IX2235 (magellan-sec) Software, Version 10.6.21, RELEASE SOFTWARE, Compiled Dec 15-Fri-YYYY HH:MM:SS JST #2, IX2235
+```
+
+1.3.6.1.4.1.1182.2.6.5.0 (SNMPv2-SMI::enterprises.1182.2.6.5.0)(iso.org.dod.internet.private.enterprises.yamaha.yamaha.yamahaRT.(notdefined?).(notdefined?).0)
+```
+"RTX830"
+```
+
+### command
+show environment
+```
+RTX810 BootROM Ver. 1.00
+RTX810 FlashROM Table Ver. 1.01
+RTX810 Rev.11.01.21 (Mon Jun 30 15:21:35 2014)
+  main:  RTX810 ver=00 serial=xxxxxxxxx MAC-Address=NN:NN:NN:NN:NN:NN MAC-Address=NN:NN:NN:NN:NN:NN
+...
+```
 
 # TEMPLATE(ManufactureName)
 ## Manufacture
@@ -208,4 +293,8 @@ Plase give me data!
 
 - https://satimo.org/2020/06/fortigate-mib/
 - https://oidref.com/
-- https://www.cisco.com/c/ja_jp/td/docs/rt/wanaggregationinternetedgert/7300rt/mib/001/cm217/a-7300appa.html
+- Cisco
+  - https://www.cisco.com/c/ja_jp/td/docs/rt/wanaggregationinternetedgert/7300rt/mib/001/cm217/a-7300appa.html
+- yamaha
+  - http://www.rtpro.yamaha.co.jp/SW/docs/swx3200/Rev_4_00_13/other/other_snmp_mib.html
+  - http://www.rtpro.yamaha.co.jp/RT/docs/mib/index.php
