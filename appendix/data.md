@@ -283,6 +283,80 @@ RTX810 Rev.11.01.21 (Mon Jun 30 15:21:35 2014)
 ...
 ```
 
+# Juniper
+## Manufacture
+### snmp
+
+.1.3.6.1.2.1.47.1.1.1.1.12.1(entPhysicalMfgName)
+
+```
+Juniper Networks
+```
+
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+
+```
+Juniper Networks, Inc. mx240 internet router, kernel JUNOS 20.4R3-S4.8, Build date: 2022-08-16 20:42:11 UTC Copyright (c) 1996-2022 Juniper Networks, Inc.
+```
+
+## Firmware 
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+Juniper Networks, Inc. mx240 internet router, kernel JUNOS 20.4R3-S4.8, Build date: 2022-08-16 20:42:11 UTC Copyright (c) 1996-2022 Juniper Networks, Inc.
+```
+
+.1.3.6.1.2.1.47.1.1.1.1.10.1 (entPhysicalSoftwareRev.1)
+```
+20.4R3-S4.8
+```
+
+## Hardware
+### snmp
+
+1.3.6.1.2.1.47.1.1.1.1.7.1(entPysicalName.1)
+```
+CHAS-BP3-MX240-S
+```
+
+# AristaNetworks
+## Manufacture
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+Arista Networks EOS version 4.28.4M running on an Arista Networks DCS-7050TX-64
+```
+
+.1.3.6.1.2.1.47.1.1.1.1.12.1(entPhysicalMfgName)
+```
+Arista Networks
+```
+
+## Frimware
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+Arista Networks EOS version 4.28.4M running on an Arista Networks DCS-7050TX-64
+```
+
+.1.3.6.1.2.1.47.1.1.1.1.10.1 (entPhysicalSoftwareRev.1)
+```
+It returns "".
+```
+
+## Hardware
+### snmp
+.1.3.6.1.2.1.1.1.0 (SNMPv2-MIB::sysDescr.0)
+```
+Arista Networks EOS version 4.28.4M running on an Arista Networks DCS-7050TX-64
+```
+
+1.3.6.1.2.1.47.1.1.1.1.7.1(entPysicalName.1)
+```
+4.28.4M
+```
+
+
 # TEMPLATE(ManufactureName)
 ## Manufacture
 ## Firmware 
